@@ -1,0 +1,142 @@
+/* ─── Testimonials ───────────────────────────────────────── */
+.section {
+  background: var(--warm-white);
+  padding: 7rem 2rem;
+}
+
+.inner {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.label {
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--pine);
+  margin-bottom: 0.75rem;
+}
+
+.heading {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 300;
+  color: var(--charcoal);
+  line-height: 1.1;
+  margin-bottom: 3rem;
+}
+
+.heading em {
+  font-style: italic;
+  color: var(--pine);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+  text-align: left;
+}
+
+.card {
+  background: var(--cream);
+  border-radius: 4px;
+  padding: 1.75rem;
+}
+
+.cardHeader {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--warm-white);
+  flex-shrink: 0;
+}
+
+.avatarPine { background: var(--pine); }
+.avatarTerracotta { background: var(--terracotta); }
+
+.meta {
+  flex: 1;
+}
+
+.name {
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--charcoal);
+  display: block;
+}
+
+.badge {
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  color: var(--slate-light);
+  display: block;
+  margin-top: 0.1rem;
+}
+
+.stars {
+  color: var(--gold);
+  font-size: 0.8rem;
+  display: block;
+  margin-top: 0.2rem;
+}
+
+.mapsIcon {
+  color: #ea4335;
+  flex-shrink: 0;
+  margin-top: 0.2rem;
+}
+
+.text {
+  font-family: var(--font-sans);
+  font-size: 0.88rem;
+  line-height: 1.7;
+  color: var(--text-warm);
+  margin: 0;
+}
+
+.cta {
+  text-align: center;
+}
+
+.ctaBtn {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  color: var(--pine);
+  border: 1px solid var(--pine);
+  padding: 0.65rem 1.5rem;
+  border-radius: 2px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.ctaBtn:hover {
+  background: var(--pine);
+  color: var(--warm-white);
+}
+
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,81 @@
+/* ─── Dot nav sidebar ─────────────────────────────────────── */
+.dotNav {
+  position: fixed;
+  right: 1.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 9000;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  transition: opacity 0.4s ease, visibility 0.4s ease;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.dotNavVisible {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* ─── Individual dot ──────────────────────────────────────── */
+.dot {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.45);
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.dot:hover,
+.dotActive {
+  background: var(--warm-white);
+  transform: scale(1.4);
+}
+
+/* On light background */
+.onLight .dot {
+  background: rgba(42, 37, 34, 0.3);
+}
+
+.onLight .dot:hover,
+.onLight .dotActive {
+  background: var(--charcoal);
+}
+
+/* ─── Tooltip via ::after ─────────────────────────────────── */
+.dot::after {
+  content: attr(data-label);
+  position: absolute;
+  right: calc(100% + 0.75rem);
+  top: 50%;
+  transform: translateY(-50%);
+  white-space: nowrap;
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  background: var(--charcoal);
+  color: var(--warm-white);
+  padding: 0.25rem 0.6rem;
+  border-radius: 2px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.dot:hover::after {
+  opacity: 1;
+}
+
+/* Hidden on mobile */
+@media (max-width: 900px) {
+  .dotNav {
+    display: none;
+  }
+}

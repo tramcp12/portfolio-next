@@ -1,0 +1,188 @@
+/* ─── Rooms section ──────────────────────────────────────── */
+.section {
+  background: var(--cream);
+  padding: 7rem 2rem;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 3rem;
+  margin-bottom: 4rem;
+}
+
+.label {
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--pine);
+  margin-bottom: 0.75rem;
+}
+
+.heading {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 300;
+  color: var(--charcoal);
+  line-height: 1.1;
+}
+
+.heading em {
+  font-style: italic;
+  color: var(--pine);
+}
+
+.intro {
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  line-height: 1.8;
+  color: var(--slate);
+  max-width: 440px;
+  align-self: flex-end;
+}
+
+/* ─── Grid ────────────────────────────────────────────────── */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+/* ─── Room card ───────────────────────────────────────────── */
+.card {
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+  min-height: 400px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.cardBg {
+  position: absolute;
+  inset: 0;
+  transition: transform 0.4s ease;
+}
+
+.r1 .cardBg {
+  background:
+    linear-gradient(135deg, rgba(201, 169, 110, 0.15) 0%, transparent 50%),
+    radial-gradient(ellipse at 30% 30%, rgba(45, 74, 62, 0.4) 0%, transparent 60%),
+    linear-gradient(160deg, #2d4a3e 0%, #3d6357 40%, #1a3028 100%);
+}
+
+.r2 .cardBg {
+  background:
+    linear-gradient(135deg, rgba(184, 202, 189, 0.2) 0%, transparent 50%),
+    radial-gradient(ellipse at 70% 20%, rgba(93, 139, 122, 0.4) 0%, transparent 60%),
+    linear-gradient(160deg, #3d6357 0%, #5c8b7a 40%, #2d4a3e 100%);
+}
+
+.r3 .cardBg {
+  background:
+    linear-gradient(135deg, rgba(201, 169, 110, 0.2) 0%, transparent 50%),
+    radial-gradient(ellipse at 40% 20%, rgba(139, 99, 71, 0.35) 0%, transparent 60%),
+    linear-gradient(160deg, #8b6347 0%, #c4724a 40%, #2d4a3e 100%);
+}
+
+.r4 .cardBg {
+  background:
+    linear-gradient(135deg, rgba(45, 74, 122, 0.2) 0%, transparent 50%),
+    radial-gradient(ellipse at 60% 30%, rgba(45, 74, 122, 0.4) 0%, transparent 60%),
+    linear-gradient(160deg, #2d4a7a 0%, #3d6357 40%, #1a3028 100%);
+}
+
+.card:hover .cardBg {
+  transform: scale(1.03);
+}
+
+.cardOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.65) 0%, transparent 60%);
+}
+
+.cardBody {
+  position: relative;
+  z-index: 1;
+  padding: 1.5rem;
+  color: var(--warm-white);
+}
+
+.cardName {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin-bottom: 0.3rem;
+}
+
+.cardBestFor {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 0.75rem;
+}
+
+.cardMeta {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.75rem;
+}
+
+.metaItem {
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.cardPrice {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  color: var(--gold);
+}
+
+.comingSoon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: rgba(201, 169, 110, 0.9);
+  color: var(--charcoal);
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.3rem 0.7rem;
+  border-radius: 2px;
+}
+
+/* ─── Responsive ──────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    min-height: 300px;
+  }
+}

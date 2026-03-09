@@ -1,0 +1,294 @@
+/* ─────────────────────────────────────────────
+ * globals.css — Design tokens + reset + animations
+ * Ported from src/core/tokens.css, reset.css,
+ * accessibility.css, and animations.css
+ * ───────────────────────────────────────────── */
+
+/* ── 1. Design Tokens ─────────────────────── */
+:root {
+  /* Greens */
+  --cream: #f4ecd8;
+  --warm-white: #fcf8ed;
+  --pine: #4a543f;
+  --pine-light: #6e7354;
+  --pine-dark: #313620;
+  --pine-mid: #8c926c;
+  --mist: #d6d2b8;
+
+  /* Earths */
+  --earth: #8b6347;
+  --terracotta: #c4724a;
+  --gold: #b3a05b;
+
+  /* Darks */
+  --charcoal: #2a2522;
+  --charcoal-deep: #1a1a17;
+  --slate: #4a5568;
+  --slate-light: #718096;
+  --slate-dark: #2d3748;
+  --text-warm: #3d3530;
+
+  /* Blues */
+  --slate-blue: #2d4a7a;
+  --slate-blue-mid: #4a6aad;
+
+  /* Typography */
+  --font-serif: "Cormorant Garamond", "Times New Roman", serif;
+  --font-sans: "Be Vietnam Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* Alpha variants */
+  --gold-10: rgba(179, 160, 91, 0.1);
+  --gold-20: rgba(179, 160, 91, 0.2);
+  --gold-35: rgba(179, 160, 91, 0.35);
+  --gold-40: rgba(179, 160, 91, 0.4);
+  --mist-20: rgba(184, 202, 189, 0.2);
+  --mist-50: rgba(184, 202, 189, 0.5);
+  --pine-dark-80: rgba(26, 48, 40, 0.8);
+  --pine-dark-90: rgba(26, 48, 40, 0.9);
+  --pine-dark-92: rgba(26, 48, 40, 0.92);
+  --pine-29: rgba(29, 42, 38, 0.9);
+  --cream-90: rgba(253, 250, 245, 0.9);
+
+  /* Gradient stops (room/blog card layered backgrounds) */
+  --brown-deep: #6b3a22;
+  --terracotta-dark: #c45a30;
+  --pine-deep: #243d38;
+  --slate-mid: #5a6a84;
+  --brown-dark: #5c3318;
+  --earth-warm: #b86040;
+  --blue-deep: #3a5a9a;
+  --indigo-muted: #3d5490;
+
+  /* Layout */
+  --nav-height: 80px;
+}
+
+/* ── 2. Reset ─────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-weight: 400;
+  color: var(--charcoal);
+  background: var(--cream);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+img,
+video {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* ── 3. Accessibility ─────────────────────── */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-nav {
+  position: absolute;
+  top: -100%;
+  left: 1rem;
+  z-index: 10000;
+  padding: 0.75rem 1.25rem;
+  background: var(--pine);
+  color: var(--warm-white);
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  border-radius: 0 0 6px 6px;
+  transition: top 0.2s;
+}
+
+.skip-nav:focus {
+  top: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* ── 4. @keyframes ────────────────────────── */
+@keyframes cp12fu {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes cp12SlideLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-48px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes cp12SlideRight {
+  from {
+    opacity: 0;
+    transform: translateX(48px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes cp12ScaleUp {
+  from {
+    opacity: 0;
+    transform: scale(0.93) translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes cp12FadeScale {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes cp12GlowPulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(179, 160, 91, 0.35);
+  }
+  50% {
+    box-shadow: 0 0 0 12px rgba(179, 160, 91, 0);
+  }
+}
+
+/* Used by NextSectionBtn and scroll hint line */
+@keyframes cp12BobDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(7px);
+  }
+}
+
+/* Centered variant for elements using translateX(-50%) positioning */
+@keyframes cp12BobDownCentered {
+  0%,
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    transform: translateX(-50%) translateY(7px);
+  }
+}
+
+/* ── 5. Scroll-reveal system ──────────────── */
+.cp12-reveal {
+  opacity: 0;
+  transform: translateY(50px);
+  transition:
+    opacity 0.75s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.75s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.cp12-reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fade-up {
+  animation: cp12fu 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+/* Stagger delays — work for both animation (fade-up) and transition (cp12-reveal) */
+.delay-1 { animation-delay: 0.15s; transition-delay: 0.15s; }
+.delay-2 { animation-delay: 0.30s; transition-delay: 0.30s; }
+.delay-3 { animation-delay: 0.45s; transition-delay: 0.45s; }
+.delay-4 { animation-delay: 0.60s; transition-delay: 0.60s; }
+.delay-5 { animation-delay: 0.75s; transition-delay: 0.75s; }
+
+/* ── 6. Reduced-motion guard ──────────────── */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .cp12-reveal,
+  .cp12-reveal.visible {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .fade-up,
+  .delay-1,
+  .delay-2,
+  .delay-3,
+  .delay-4,
+  .delay-5 {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ── 7. Tablet breakpoint baseline ────────── */
+@media (max-width: 768px) {
+  :root {
+    --nav-height: 64px;
+  }
+}

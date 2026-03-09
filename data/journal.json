@@ -1,0 +1,35 @@
+[
+  {
+    "bgClass": "bi1",
+    "large": true,
+    "imgLabel": "Pine forest trail at dawn",
+    "cat": "Running Guide",
+    "title": "Elevation Strategy: The Ultimate Dalat Trail Running & Fastpacking Guide",
+    "excerpt": "Dalat is Southeast Asia's best-kept secret for mountain athletes. Sitting at 1,500m above sea level with cool air, high vert capability, and endless pine-forested ridgelines.",
+    "linkText": "Read More",
+    "linkLabel": "about Dalat trail running guide",
+    "href": "#"
+  },
+  {
+    "bgClass": "bi2",
+    "large": false,
+    "imgLabel": "Solo traveler at CP12 common area",
+    "cat": "Solo Travel",
+    "title": "Finding Your Paceline: Solo Travel at Trạm CP12",
+    "excerpt": "There's a particular kind of freedom in solo training. Our dorm, morning shakeout runs, and weekly Trạm Nights are designed so you naturally find your next race partner.",
+    "linkText": "Read More",
+    "linkLabel": "about solo travel at CP12",
+    "href": "#"
+  },
+  {
+    "bgClass": "bi3",
+    "large": false,
+    "imgLabel": "Hidden café alley in Đà Lạt",
+    "cat": "Local Secrets",
+    "title": "Dalat's Hidden Aid Stations: Post-Run Food Secrets",
+    "excerpt": "Skip the crowded tourist spots. Our host-pacers reveal the hidden cafés, backstreet carb-loading stalls, and underground recovery spots you won't find on TripAdvisor.",
+    "linkText": "Read More",
+    "linkLabel": "about Dalat hidden gems",
+    "href": "#"
+  }
+]

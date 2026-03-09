@@ -1,0 +1,84 @@
+/* ─── FAQ section ────────────────────────────────────────── */
+.section {
+  background: var(--warm-white);
+  padding: 7rem 2rem;
+}
+
+.inner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.label {
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--pine);
+  margin-bottom: 0.75rem;
+}
+
+.heading {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 300;
+  color: var(--charcoal);
+  line-height: 1.1;
+  margin-bottom: 3rem;
+}
+
+.heading em {
+  font-style: italic;
+  color: var(--pine);
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  border-top: 1px solid rgba(0,0,0,0.08);
+}
+
+/* ─── FAQ item (native details/summary) ───────────────────── */
+.item {
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+.question {
+  list-style: none;
+  padding: 1.25rem 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--charcoal);
+}
+
+.question::-webkit-details-marker {
+  display: none;
+}
+
+.question::after {
+  content: "+";
+  font-size: 1.2rem;
+  color: var(--pine);
+  flex-shrink: 0;
+  transition: transform 0.2s ease;
+}
+
+.item[open] .question::after {
+  transform: rotate(45deg);
+}
+
+.answer {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  line-height: 1.8;
+  color: var(--slate);
+  padding: 0 0 1.25rem;
+  margin: 0;
+}

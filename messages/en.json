@@ -1,0 +1,309 @@
+{
+  "skip": {
+    "nav": "Skip to content"
+  },
+  "nav": {
+    "nextSection": "Scroll to next section",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu",
+    "dots": "Page sections",
+    "dot": {
+      "home": "Go to top",
+      "video": "Go to welcome film",
+      "rooms": "Go to rooms",
+      "explore": "Go to explore",
+      "about": "Go to about",
+      "journal": "Go to journal",
+      "book": "Go to booking",
+      "testimonials": "Go to guest reviews",
+      "location": "Go to location",
+      "faq": "Go to FAQ"
+    },
+    "rooms": "Rooms",
+    "explore": "Explore",
+    "about": "About",
+    "journal": "Journal",
+    "book": "Book a Stay",
+    "lang": {
+      "label": "Switch to Vietnamese"
+    }
+  },
+  "hero": {
+    "tag": "Homestay · Đà Lạt · Central Highlands · Vietnam",
+    "title": "Where<br>travelers<em>find home.</em>",
+    "subtitle": "A trail runner's homestay in the cloud-wrapped mountains of Dalat. 1,500m altitude, rooms from 450,000 VND/night, and a team that speaks your language — whether that's vert, cà phê, or both.",
+    "exploreRooms": "Explore Rooms",
+    "watchVideo": "Watch Welcome Video",
+    "stat": {
+      "roomTypes": "Room Types",
+      "priceFrom": "VND / night",
+      "altitude": "Altitude"
+    },
+    "scroll": "Scroll"
+  },
+  "video": {
+    "label": "Welcome to CP12",
+    "title": "Feel it before <em>you arrive.</em>",
+    "desc": "Three minutes through pine forests, misty mornings, and genuine human warmth. This is what Trạm CP12 feels like — before you even pack your bags.",
+    "tag": "3 min · Welcome Film by CP12 Team"
+  },
+  "rooms": {
+    "label": "Our Spaces",
+    "heading": "A room for every<br><em>kind of traveler.</em>",
+    "intro": "From intimate private rooms to our social dormitory — each space at Trạm CP12 is designed with intention. Natural materials, local craft, and exactly the kind of light that makes you want to stay another night.",
+    "viewPhotos": "View photos for",
+    "comingSoon": "Coming Soon",
+    "comingSoonDesc": "Dorm beds are coming — ideal for solo travelers and budget stays. Opening soon."
+  },
+  "explore": {
+    "label": "From Our Doorstep",
+    "heading": "What guests discover <em>nearby.</em>",
+    "filter": {
+      "all": "All",
+      "running": "Running",
+      "food": "Food",
+      "nature": "Nature"
+    },
+    "runnersPick": "Runner's Pick",
+    "diff": {
+      "easy": "Easy",
+      "medium": "Medium",
+      "hard": "Hard",
+      "easyMed": "Easy–Med"
+    },
+    "card1": {
+      "cat": "Running · Lakeside",
+      "name": "Hồ Xuân Hương",
+      "dist": "3.4km away",
+      "time": "15–30 mins",
+      "highlight": "Active recovery done right. Start with an easy, crisp 5km shakeout run around the lake. At 1,500m elevation, a morning jog here hits different."
+    },
+    "card2": {
+      "cat": "Nature · Photography",
+      "name": "Vườn Hoa Thành Phố Đà Lạt",
+      "dist": "3.4km away",
+      "time": "15-30 mins",
+      "highlight": "The city's iconic flower park overlooking Xuan Huong Lake. Features hundreds of flower species including hydrangeas, orchids, and roses perfectly curated."
+    },
+    "card3": {
+      "cat": "Trail Running · Mountain",
+      "name": "Đỉnh núi Langbiang",
+      "dist": "11.5km away",
+      "time": "1-2 hours",
+      "highlight": "2,167m - The Roof of Da Lat. Skip the easy Radar Peak road to tackle the real 10.6km loop up Ba Mountain. That last 360m push with 717m total elevation gain tests every muscle."
+    },
+    "card4": {
+      "cat": "Food & Culture",
+      "name": "Chợ đêm thành phố Đà Lạt",
+      "dist": "4.4km away",
+      "time": "20-30 mins",
+      "highlight": "Swap your trail shoes for sandals. Replenish your calories with authentic bánh tráng nướng and hot soy milk in the chilly mountain air after a big hike."
+    },
+    "card5": {
+      "cat": "Nature · Photography",
+      "name": "Đồi chè Cầu Đất Đà Lạt",
+      "dist": "26km away",
+      "time": "1-2 hours",
+      "highlight": "Dial in the vert for Dalat Ultra Trail! The 20.7-mile loop transitions from smooth dirt roads to technical rocky descents. Log 1,200m D+ before the heat hits."
+    },
+    "card6": {
+      "cat": "Culture & Spirituality",
+      "name": "Thiền viện Trúc Lâm Đà Lạt",
+      "dist": "7.4km away",
+      "time": "30-45 mins",
+      "highlight": "Take the cable car up; earn the 4km pine-trail descent back to town. Fully runnable with switchbacks — time it early morning before tour groups hit the trail."
+    }
+  },
+  "about": {
+    "label": "About CP12",
+    "accentLabel": "Above Sea Level",
+    "heading": "Not just a bed.<br>A <em>base camp.</em>",
+    "p1": "Trạm CP12 was born from a simple frustration: too many Đà Lạt stays felt like transactions. You'd arrive, sleep, leave — and miss the actual city entirely.",
+    "p2": "We built something different. A place run by locals, designed for connection, and obsessively curated for solo travelers who want the real Đà Lạt — not the brochure version.",
+    "perk1": {
+      "title": "Local expertise, freely shared",
+      "desc": "Hand-drawn route maps with elevation profiles, Strava segment tips, and hosts who've logged hundreds of km on these very trails."
+    },
+    "perk2": {
+      "title": "Built for runners",
+      "desc": "Breakfast before long runs, gear drying racks, cold-rinse station, and a recovery corner with muscle rub, and herbal teas."
+    },
+    "perk3": {
+      "title": "Solo-traveler focused",
+      "desc": "Free group trail runs during the week, sharing route information, and a dorm where runners naturally find each other."
+    },
+    "checkin": "Check-in from",
+    "checkout": "Check-out by",
+    "bookBtn": "Book Your Stay →"
+  },
+  "journal": {
+    "label": "The CP12 Journal",
+    "heading": "Stories from <em>the trail.</em>",
+    "subtext": "Local insights, runner guides, hidden spots, and honest travel advice — straight from the CP12 team and the people who've stayed with us.",
+    "card1": {
+      "cat": "Running Guide",
+      "title": "Dalat for Runners: Your Complete Trail Guide from Trạm CP12",
+      "excerpt": "Dalat is trail running's best-kept secret in Southeast Asia — 1,500m altitude, cool air year-round, and 50km of singletrack within 30 minutes of CP12. Here's every route, graded."
+    },
+    "card2": {
+      "cat": "Solo Travel",
+      "title": "How to Feel at Home at Trạm CP12",
+      "excerpt": "There's a particular kind of freedom in traveling alone. Our dorm, morning walks, and weekly Trạm Nights are designed so connections happen naturally."
+    },
+    "card3": {
+      "cat": "Local Secrets",
+      "title": "Dalat's Hidden Gems: Beyond the Tourist Trail",
+      "excerpt": "Skip the brochures. Our team reveals hidden cafés, backstreet food stalls, and underground arts you won't find on TripAdvisor."
+    },
+    "readMore": "Read More"
+  },
+  "cta": {
+    "label": "Ready?",
+    "title": "The mountains are<br><em>waiting.</em>",
+    "sub": "Whether you're chasing trails, chasing peace, or just chasing a really good cup of cà phê — Trạm CP12 is ready for you. From 180,000 VND/night.",
+    "step1": {
+      "title": "Message us",
+      "desc": "Facebook, Zalo, email, or phone — we reply within 2 hours"
+    },
+    "step2": {
+      "title": "Confirm your dates",
+      "desc": "We hold your room with deposit required"
+    },
+    "step3": {
+      "title": "Arrive & check in",
+      "desc": "From 14:00 · Check-out by 12:00"
+    },
+    "bookBtn": "Book a Room →",
+    "facebookBtn": "Facebook",
+    "zaloBtn": "Zalo",
+    "callBtn": "Call Us"
+  },
+  "footer": {
+    "tagline": "A trail runner's base camp in the mist-wrapped mountains of Đà Lạt — where solo travelers find their people, runners find their trails, and everyone finds a home away from home.",
+    "col": {
+      "rooms": "Rooms",
+      "explore": "Explore",
+      "links": "Quick Links"
+    },
+    "link": {
+      "runningRoutes": "Running Routes",
+      "foodMarkets": "Food & Markets",
+      "cultureNature": "Culture & Nature",
+      "googleMaps": "View on Google Maps",
+      "aboutCP12": "About CP12",
+      "houseRules": "About & House Rules",
+      "journal": "The Journal",
+      "book": "Book a Stay"
+    },
+    "bottom": {
+      "made": "Made with care in the Central Highlands"
+    },
+    "room": {
+      "jan01": "Jan 01",
+      "feb02": "Feb 02",
+      "mar03": "Mar 03",
+      "aug08": "Aug 08",
+      "sep09": "Sep 09",
+      "oct10": "Oct 10",
+      "nov11": "Nov 11"
+    }
+  },
+  "modal": {
+    "title": "CP12 Welcome Film",
+    "note": "Video coming soon — follow us on Instagram for behind-the-scenes content while we edit!",
+    "close": "Close video"
+  },
+  "panel": {
+    "close": "Close room details",
+    "prevPhoto": "Previous photo",
+    "nextPhoto": "Next photo",
+    "bookBtn": "Book This Room",
+    "photoCount": "Photo {n} of {total}",
+    "regionLabel": "Room details",
+    "amenitiesLabel": "Amenities"
+  },
+  "testimonials": {
+    "label": "What Guests Say",
+    "heading": "Stories from <em>our guests.</em>",
+    "source": {
+      "google": "Google Reviews",
+      "booking": "Booking.com"
+    },
+    "seeAllBtn": "See all Google reviews →",
+    "r1text": "Best sleep in months — over 9 straight hours. Five stars for that alone.",
+    "r2text": "The host insisted on rice and morning tea. Room is clean, fresh-smelling, open view and very quiet. Truly relaxing."
+  },
+  "location": {
+    "label": "Find Us",
+    "heading": "At the edge of <em>the city.</em>",
+    "intro": "228/6 Đường Phú Đồng Thiên Vương, Phường 8, Đà Lạt — 3km from the center, 10 minutes from the night market, and right beside some of the best trails in the highlands.",
+    "mapBtn": "Open in Google Maps →",
+    "mapLinkLabel": "View Trạm CP12 location on Google Maps",
+    "dalat": {
+      "name": "Đà Lạt City Center",
+      "dist": "~3 km",
+      "time": "10 min by motorbike"
+    },
+    "trail": {
+      "name": "Nearest Trail",
+      "dist": "~2 km",
+      "time": "10 min walk"
+    },
+    "market": {
+      "name": "Night Market",
+      "dist": "~4.4 km",
+      "time": "15 min by motorbike"
+    },
+    "lake": {
+      "name": "Hồ Xuân Hương",
+      "dist": "~3.4 km",
+      "time": "15 min walk"
+    },
+    "bus": {
+      "name": "Bus Station",
+      "dist": "~4 km",
+      "time": "15 min by taxi"
+    },
+    "airport": {
+      "name": "Liên Khương Airport",
+      "dist": "~30 km",
+      "time": "45 min by taxi"
+    }
+  },
+  "faq": {
+    "label": "Common Questions",
+    "heading": "Everything you <em>need to know.</em>",
+    "q1": {
+      "question": "Is parking available?",
+      "answer": "Yes — free motorbike and car parking is available on-site."
+    },
+    "q2": {
+      "question": "Is breakfast included?",
+      "answer": "Breakfast is not included. The shared kitchen has a rice cooker, kettle, pots, and fridge — fully usable by all guests."
+    },
+    "q3": {
+      "question": "Is there hot water?",
+      "answer": "Yes — all rooms have hot water showers with electric heaters. Reliable year-round."
+    },
+    "q4": {
+      "question": "What is the Wi-Fi speed?",
+      "answer": "Fiber broadband, typically 50–100 Mbps. Solid for remote work and video calls."
+    },
+    "q5": {
+      "question": "What are check-in and check-out times?",
+      "answer": "Check-in from 14:00. Check-out by 12:00. Early check-in or late check-out is available on request — just message us."
+    },
+    "q6": {
+      "question": "Can I store luggage after check-out?",
+      "answer": "Yes — free luggage storage until 18:00 on your check-out day. Just let us know."
+    },
+    "q7": {
+      "question": "How do I get here from the bus station?",
+      "answer": "Grab or xe ôm (motorbike taxi) takes about 15 minutes. Show the driver: 228/6 Đường Phú Đồng Thiên Vương, Phường 8."
+    },
+    "q8": {
+      "question": "What is the deposit and cancellation policy?",
+      "answer": "We hold your room with a small deposit via bank transfer. Cancellations with 48+ hours notice receive a full refund. Message us on Zalo or Facebook for details."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+/* ─── Next section floating button ───────────────────────── */
+.btn {
+  position: fixed;
+  bottom: 2rem;
+  right: 1.5rem;
+  z-index: 9000;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--pine);
+  color: var(--warm-white);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  transition: opacity 0.4s ease, visibility 0.4s ease, transform 0.2s ease;
+  opacity: 0;
+  visibility: hidden;
+  animation: cp12BobDown 2s ease-in-out infinite;
+}
+
+.btn:hover {
+  transform: translateY(3px);
+  background: var(--pine-light);
+}
+
+.btnVisible {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (max-width: 600px) {
+  .btn {
+    display: none;
+  }
+}

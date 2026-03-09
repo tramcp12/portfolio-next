@@ -1,0 +1,65 @@
+[
+  {
+    "bgClass": "ti1",
+    "category": "running",
+    "badge": "runner",
+    "difficulty": "Easy",
+    "cat": "Running · Lakeside",
+    "name": "Hồ Xuân Hương",
+    "distance": "0.8km away",
+    "duration": "45–60 mins",
+    "highlight": "Active recovery done right. Start with an easy, crisp 5km shakeout run around the lake. At 1,500m elevation, a morning jog here hits different."
+  },
+  {
+    "bgClass": "ti2",
+    "category": "nature",
+    "difficulty": "Easy",
+    "cat": "Nature · Photography",
+    "name": "Vườn Hoa Thành Phố Đà Lạt",
+    "distance": "2km away",
+    "duration": "1–2 hours",
+    "highlight": "The city's iconic flower park overlooking Xuan Huong Lake. Features hundreds of flower species including hydrangeas, orchids, and roses perfectly curated."
+  },
+  {
+    "bgClass": "ti3",
+    "category": "nature",
+    "badge": "",
+    "difficulty": "Hard",
+    "cat": "Trail Running · Mountain",
+    "name": "Đỉnh núi Langbiang",
+    "distance": "12km away",
+    "duration": "3–4 hours",
+    "highlight": "2,167m - The Roof of Da Lat. Skip the easy Radar Peak road to tackle the real 10.6km loop up Ba Mountain. That last 360m push with 717m total elevation gain tests every muscle."
+  },
+  {
+    "bgClass": "ti4",
+    "category": "food",
+    "difficulty": "Easy",
+    "cat": "Food & Culture",
+    "name": "Chợ đêm thành phố Đà Lạt",
+    "distance": "0.5km away",
+    "duration": "1–3 hours",
+    "highlight": "Swap your trail shoes for sandals. Replenish your calories with authentic bánh tráng nướng and hot soy milk in the chilly mountain air after a big hike."
+  },
+  {
+    "bgClass": "ti5",
+    "category": "nature",
+    "badge": "",
+    "difficulty": "Easy",
+    "cat": "Nature · Photography",
+    "name": "Đồi chè Cầu Đất Đà Lạt",
+    "distance": "25km away",
+    "duration": "Half day",
+    "highlight": "Dial in the vert for Dalat Ultra Trail! The 20.7-mile loop transitions from smooth dirt roads to technical rocky descents. Log 1,200m D+ before the heat hits."
+  },
+  {
+    "bgClass": "ti6",
+    "category": "nature",
+    "difficulty": "Easy–Med",
+    "cat": "Culture & Spirituality",
+    "name": "Thiền viện Trúc Lâm Đà Lạt",
+    "distance": "5km away",
+    "duration": "Half day",
+    "highlight": "Take the cable car up; earn the 4km pine-trail descent back to town. Fully runnable with switchbacks — time it early morning before tour groups hit the trail."
+  }
+]

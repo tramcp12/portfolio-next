@@ -1,0 +1,183 @@
+/* ─── About section ──────────────────────────────────────── */
+.section {
+  background: var(--warm-white);
+  padding: 7rem 2rem;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: center;
+}
+
+/* ─── Visual column ───────────────────────────────────────── */
+.visual {
+  position: relative;
+}
+
+.imgMain {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  background: url("/static/img/hero-cover.jpg") center/cover no-repeat;
+  border-radius: 4px;
+}
+
+.imgAccent {
+  position: absolute;
+  bottom: -2rem;
+  right: -2rem;
+  background: var(--pine);
+  color: var(--warm-white);
+  padding: 1.5rem 2rem;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.bigNum {
+  display: block;
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--gold);
+}
+
+.bigLabel {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--mist);
+  margin-top: 0.3rem;
+}
+
+/* ─── Content column ──────────────────────────────────────── */
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.label {
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--pine);
+  margin-bottom: 0.75rem;
+}
+
+.heading {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 300;
+  color: var(--charcoal);
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+}
+
+.heading em {
+  font-style: italic;
+  color: var(--pine);
+}
+
+.text {
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  line-height: 1.8;
+  color: var(--slate);
+  margin-bottom: 1rem;
+}
+
+/* ─── Perks ───────────────────────────────────────────────── */
+.perks {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.perk {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.perkIcon {
+  font-size: 1.3rem;
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+
+.perkTitle {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--charcoal);
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.perkDesc {
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  line-height: 1.7;
+  color: var(--slate);
+  margin: 0;
+}
+
+/* ─── Check-in strip ──────────────────────────────────────── */
+.checkinStrip {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--cream);
+  padding: 0.85rem 1.25rem;
+  border-radius: 2px;
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  color: var(--charcoal);
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+
+.divider {
+  color: var(--mist);
+  margin: 0 0.25rem;
+}
+
+.bookBtn {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: var(--pine);
+  color: var(--warm-white);
+  padding: 0.85rem 1.8rem;
+  border-radius: 2px;
+  align-self: flex-start;
+  transition: background 0.2s ease;
+}
+
+.bookBtn:hover {
+  background: var(--pine-light);
+}
+
+/* ─── Responsive ──────────────────────────────────────────── */
+@media (max-width: 900px) {
+  .inner {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .imgAccent {
+    right: 1rem;
+    bottom: -1rem;
+  }
+}
