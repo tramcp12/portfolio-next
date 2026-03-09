@@ -19,7 +19,7 @@ export default function AboutSection() {
           <div
             className={styles.imgMain}
             role="img"
-            aria-label="CP12 interior ambience"
+            aria-label={t("videoLabel")}
           />
           <div className={styles.imgAccent}>
             <span className={styles.bigNum}>1500m</span>
@@ -58,7 +58,7 @@ export default function AboutSection() {
             ))}
           </div>
 
-          <div className={styles.checkinStrip} aria-label="Check-in and check-out times">
+          <div className={styles.checkinStrip} aria-label={t("checkinLabel")}>
             <span aria-hidden="true">🕑</span>
             <span>{t("checkin")}</span> <strong>14:00</strong>
             <span className={styles.divider} aria-hidden="true">·</span>

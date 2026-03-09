@@ -54,7 +54,7 @@ export default function TestimonialsSection() {
                     height="18"
                     viewBox="0 0 24 24"
                     fill="currentColor"
-                    aria-label="Google Maps"
+                    aria-label={t("googleLabel")}
                     role="img"
                     className={styles.mapsIcon}
                   >

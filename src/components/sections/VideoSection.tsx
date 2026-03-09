@@ -70,7 +70,7 @@ export default function VideoSection() {
             type="button"
             id="videoFrame"
             className={`${styles.frame} cp12-reveal delay-2`}
-            aria-label="Watch the CP12 welcome film"
+            aria-label={t("frameLabel")}
             onClick={openModal}
           >
             <span className={styles.frameOverlay} aria-hidden="true">

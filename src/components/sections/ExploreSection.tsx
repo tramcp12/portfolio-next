@@ -69,7 +69,7 @@ export default function ExploreSection() {
           {/* Filter tabs — W3C APG Tabs pattern */}
           <div
             role="tablist"
-            aria-label="Filter by category"
+            aria-label={t("filterLabel")}
             className={styles.tabs}
           >
             {FILTERS.map((f) => (

@@ -60,9 +60,9 @@ export default function Nav({ locale }: NavProps) {
 
   return (
     <>
-      <nav className={navClass} aria-label="Main navigation">
+      <nav className={navClass} aria-label={t("mainLabel")}>
         {/* Logo */}
-        <a href="#home" className={styles.logo} aria-label="Trạm CP12 — Về đầu trang">
+        <a href="#home" className={styles.logo} aria-label={t("logoLabel")}>
           Trạm CP12
         </a>
 

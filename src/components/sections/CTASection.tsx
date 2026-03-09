@@ -27,7 +27,7 @@ export default function CTASection() {
         />
         <p className={styles.sub}>{t("sub")}</p>
 
-        <div className={styles.steps} aria-label="How to book">
+        <div className={styles.steps} aria-label={t("stepsLabel")}>
           {(["step1", "step2", "step3"] as const).map((step, i) => (
             <div key={step} className={styles.step}>
               <span className={styles.stepNum} aria-hidden="true">

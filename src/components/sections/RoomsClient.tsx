@@ -77,7 +77,7 @@ export default function RoomsClient({ rooms, locale }: RoomsClientProps) {
                   </div>
                 )}
 
-                <p className={styles.cardPrice}>{room.price}đ / đêm</p>
+                <p className={styles.cardPrice}>{room.price}đ {t("perNight")}</p>
               </div>
             </article>
           );

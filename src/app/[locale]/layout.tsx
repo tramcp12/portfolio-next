@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Cormorant_Garamond, Be_Vietnam_Pro } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
-import { getMessages } from "next-intl/server";
+import { getMessages, getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import Nav from "@/components/layout/Nav";
@@ -136,7 +136,10 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
     notFound();
   }
 
-  const messages = await getMessages();
+  const [messages, t] = await Promise.all([
+    getMessages(),
+    getTranslations({ locale, namespace: "skip" }),
+  ]);
 
   return (
     <html lang={locale}>
@@ -148,7 +151,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
       <body className={`${cormorant.variable} ${beVietnam.variable}`}>
         <NextIntlClientProvider messages={messages}>
           <a href="#main-content" className="skip-nav">
-            {locale === "vi" ? "Chuyển đến nội dung" : "Skip to content"}
+            {t("nav")}
           </a>
           <Nav locale={locale} />
           <ScrollReveal />

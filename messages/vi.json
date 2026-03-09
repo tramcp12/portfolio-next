@@ -26,7 +26,10 @@
     "book": "Đặt Phòng",
     "lang": {
       "label": "Switch to English"
-    }
+    },
+    "mainLabel": "Điều hướng chính",
+    "logoLabel": "Trạm CP12 — Về đầu trang",
+    "menuLabel": "Menu điều hướng"
   },
   "hero": {
     "tag": "Homestay · Đà Lạt · Tây Nguyên · Việt Nam",
@@ -39,13 +42,15 @@
       "priceFrom": "VND / đêm",
       "altitude": "Độ Cao"
     },
-    "scroll": "Cuộn"
+    "scroll": "Cuộn",
+    "statsLabel": "Thông tin nhanh"
   },
   "video": {
     "label": "Chào Mừng đến CP12",
     "title": "Cảm nhận trước <em>khi bạn đến.</em>",
     "desc": "Ba phút qua những rừng thông, buổi sáng mờ sương và sự ấm áp chân thành. Đây chính là cảm giác của Trạm CP12 — trước khi bạn kịp chuẩn bị hành lý.",
-    "tag": "3 phút · Phim Chào Mừng bởi Đội CP12"
+    "tag": "3 phút · Phim Chào Mừng bởi Đội CP12",
+    "frameLabel": "Xem phim chào mừng CP12"
   },
   "rooms": {
     "label": "Không Gian Của Chúng Tôi",
@@ -53,7 +58,8 @@
     "intro": "Từ phòng riêng ấm cúng đến phòng dorm sôi động — mỗi không gian tại Trạm CP12 đều được thiết kế có chủ đích. Vật liệu tự nhiên, thủ công địa phương và ánh sáng khiến bạn muốn ở lại thêm một đêm nữa.",
     "viewPhotos": "Xem ảnh phòng",
     "comingSoon": "Sắp Có",
-    "comingSoonDesc": "Phòng dorm sắp khai trương — lý tưởng cho du khách solo và ngân sách hợp lý."
+    "comingSoonDesc": "Phòng dorm sắp khai trương — lý tưởng cho du khách solo và ngân sách hợp lý.",
+    "perNight": "/ đêm"
   },
   "explore": {
     "label": "Từ Cửa Nhà Chúng Tôi",
@@ -64,6 +70,7 @@
       "food": "Ẩm Thực",
       "nature": "Thiên Nhiên"
     },
+    "filterLabel": "Lọc theo danh mục",
     "runnersPick": "Lựa Chọn Runner",
     "diff": {
       "easy": "Dễ",
@@ -134,7 +141,9 @@
     },
     "checkin": "Nhận phòng từ",
     "checkout": "Trả phòng trước",
-    "bookBtn": "Đặt Phòng Của Bạn →"
+    "bookBtn": "Đặt Phòng Của Bạn →",
+    "videoLabel": "Không gian nội thất CP12",
+    "checkinLabel": "Thời gian nhận và trả phòng"
   },
   "journal": {
     "label": "Nhật Ký CP12",
@@ -176,7 +185,8 @@
     "bookBtn": "Đặt Phòng →",
     "facebookBtn": "Facebook",
     "zaloBtn": "Zalo",
-    "callBtn": "Gọi Chúng Tôi"
+    "callBtn": "Gọi Chúng Tôi",
+    "stepsLabel": "Cách đặt phòng"
   },
   "footer": {
     "tagline": "Trạm xuất phát cho vận động viên trail giữa núi rừng mờ sương Đà Lạt — nơi du khách solo tìm được người bạn đồng hành, runners tìm được đường mòn và mọi người tìm thấy mái nhà thứ hai.",
@@ -220,11 +230,14 @@
     "bookBtn": "Đặt Phòng Này",
     "photoCount": "Ảnh {n} / {total}",
     "regionLabel": "Chi tiết phòng",
-    "amenitiesLabel": "Tiện nghi"
+    "amenitiesLabel": "Tiện nghi",
+    "perNight": "VND / đêm",
+    "thumbsLabel": "Thu mộc nhỏ"
   },
   "testimonials": {
     "label": "Khách Nói Gì",
     "heading": "Những câu chuyện từ <em>khách của chúng tôi.</em>",
+    "googleLabel": "Google Maps",
     "source": {
       "google": "Google Reviews",
       "booking": "Booking.com"

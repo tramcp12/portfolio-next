@@ -26,7 +26,10 @@
     "book": "Book a Stay",
     "lang": {
       "label": "Switch to Vietnamese"
-    }
+    },
+    "mainLabel": "Main navigation",
+    "logoLabel": "Trạm CP12 — Go to top",
+    "menuLabel": "Navigation menu"
   },
   "hero": {
     "tag": "Homestay · Đà Lạt · Central Highlands · Vietnam",
@@ -39,13 +42,15 @@
       "priceFrom": "VND / night",
       "altitude": "Altitude"
     },
-    "scroll": "Scroll"
+    "scroll": "Scroll",
+    "statsLabel": "Quick facts"
   },
   "video": {
     "label": "Welcome to CP12",
     "title": "Feel it before <em>you arrive.</em>",
     "desc": "Three minutes through pine forests, misty mornings, and genuine human warmth. This is what Trạm CP12 feels like — before you even pack your bags.",
-    "tag": "3 min · Welcome Film by CP12 Team"
+    "tag": "3 min · Welcome Film by CP12 Team",
+    "frameLabel": "Watch the CP12 welcome film"
   },
   "rooms": {
     "label": "Our Spaces",
@@ -53,7 +58,8 @@
     "intro": "From intimate private rooms to our social dormitory — each space at Trạm CP12 is designed with intention. Natural materials, local craft, and exactly the kind of light that makes you want to stay another night.",
     "viewPhotos": "View photos for",
     "comingSoon": "Coming Soon",
-    "comingSoonDesc": "Dorm beds are coming — ideal for solo travelers and budget stays. Opening soon."
+    "comingSoonDesc": "Dorm beds are coming — ideal for solo travelers and budget stays. Opening soon.",
+    "perNight": "/ night"
   },
   "explore": {
     "label": "From Our Doorstep",
@@ -64,6 +70,7 @@
       "food": "Food",
       "nature": "Nature"
     },
+    "filterLabel": "Filter by category",
     "runnersPick": "Runner's Pick",
     "diff": {
       "easy": "Easy",
@@ -134,7 +141,9 @@
     },
     "checkin": "Check-in from",
     "checkout": "Check-out by",
-    "bookBtn": "Book Your Stay →"
+    "bookBtn": "Book Your Stay →",
+    "videoLabel": "CP12 interior ambience",
+    "checkinLabel": "Check-in and check-out times"
   },
   "journal": {
     "label": "The CP12 Journal",
@@ -176,7 +185,8 @@
     "bookBtn": "Book a Room →",
     "facebookBtn": "Facebook",
     "zaloBtn": "Zalo",
-    "callBtn": "Call Us"
+    "callBtn": "Call Us",
+    "stepsLabel": "How to book"
   },
   "footer": {
     "tagline": "A trail runner's base camp in the mist-wrapped mountains of Đà Lạt — where solo travelers find their people, runners find their trails, and everyone finds a home away from home.",
@@ -220,11 +230,14 @@
     "bookBtn": "Book This Room",
     "photoCount": "Photo {n} of {total}",
     "regionLabel": "Room details",
-    "amenitiesLabel": "Amenities"
+    "amenitiesLabel": "Amenities",
+    "perNight": "VND / night",
+    "thumbsLabel": "Photo thumbnails"
   },
   "testimonials": {
     "label": "What Guests Say",
     "heading": "Stories from <em>our guests.</em>",
+    "googleLabel": "Google Maps",
     "source": {
       "google": "Google Reviews",
       "booking": "Booking.com"

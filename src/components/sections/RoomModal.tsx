@@ -60,7 +60,7 @@ export default function RoomModal({ room, locale, onClose }: RoomModalProps) {
     setPhotoIdx((i) => (i + 1) % photos.length);
   }
 
-  const nightLabel = isVi ? "VND / đêm" : "VND / night";
+  const nightLabel = t("perNight");
 
   return (
     <div
@@ -100,7 +100,7 @@ export default function RoomModal({ room, locale, onClose }: RoomModalProps) {
 
           {/* Prev / Next */}
           {photos.length > 1 && (
-            <div className={styles.galNav} aria-hidden="true">
+            <div className={styles.galNav}>
               <button
                 className={styles.galBtn}
                 onClick={prevPhoto}
@@ -120,7 +120,7 @@ export default function RoomModal({ room, locale, onClose }: RoomModalProps) {
 
           {/* Thumbnails */}
           {photos.length > 1 && (
-            <div className={styles.thumbs} aria-label="Photo thumbnails">
+            <div className={styles.thumbs} aria-label={t("thumbsLabel")}>
               {photos.map((photo, i) => {
                 const thumbAlt = isVi ? (photo.alt_vi || photo.alt) : photo.alt;
                 return (

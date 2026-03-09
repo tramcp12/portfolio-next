@@ -64,7 +64,7 @@ export default function HeroSection() {
           </div>
 
           {/* Stats */}
-          <section className={styles.stats} aria-label="Quick facts">
+          <section className={styles.stats} aria-label={t("statsLabel")}>
             <div className={styles.statBox}>
               <span className={styles.statNum} aria-hidden="true">7</span>
               <span className={styles.statLabel} aria-hidden="true">
