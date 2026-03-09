@@ -63,7 +63,7 @@ export default function Nav({ locale }: NavProps) {
       <nav className={navClass} aria-label={t("mainLabel")}>
         {/* Logo */}
         <a href="#home" className={styles.logo} aria-label={t("logoLabel")}>
-          Trạm CP12
+          Trạm <em>CP12</em>
         </a>
 
         {/* Desktop links */}

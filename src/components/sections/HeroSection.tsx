@@ -44,8 +44,6 @@ export default function HeroSection() {
           className={styles.rightBg}
         />
         <div className={styles.rightOverlay} aria-hidden="true" />
-        <span className={styles.pineIcon} aria-hidden="true">🌲</span>
-
         <div className={styles.rightContent}>
           {/* Play button — triggers the video modal (IIFE 3 equivalent handled by VideoSection) */}
           <div className={styles.playWrap}>

@@ -1,6 +1,6 @@
 /* ─── Footer ──────────────────────────────────────────────── */
 .footer {
-  background: var(--pine-dark);
+  background: var(--charcoal-deep);
   color: var(--warm-white);
   padding: 4rem 2rem 2rem;
 }
@@ -65,7 +65,9 @@
   border-radius: 50%;
   color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
-  transition: border-color 0.2s ease, color 0.2s ease;
+  transition:
+    border-color 0.2s ease,
+    color 0.2s ease;
 }
 
 .socialLink:hover {

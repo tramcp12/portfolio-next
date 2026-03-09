@@ -59,7 +59,12 @@ export default function JournalSection() {
                   {t(`${key}.excerpt` as Parameters<typeof t>[0])}
                 </p>
                 <a href="#book" className={styles.link}>
-                  {t("readMore")} →
+                  {t("readMore")}
+                  <span className="sr-only">
+                    {" "}
+                    {t(`${key}.title` as Parameters<typeof t>[0])}
+                  </span>{" "}
+                  →
                 </a>
               </div>
             </article>

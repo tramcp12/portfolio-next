@@ -51,6 +51,11 @@
   opacity: 0.8;
 }
 
+.logo em {
+  font-style: normal;
+  color: var(--gold);
+}
+
 /* ─── Links ───────────────────────────────────────────────── */
 .links {
   display: flex;
